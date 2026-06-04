@@ -1,0 +1,26 @@
+xcelium> source /xcelium25.03/tools/xcelium/files/xmsimrc
+xcelium> run
+
+ Paramaterized interface 
+
+count=000
+
+count=001
+
+count=010
+
+count=011
+
+count=100
+
+count=101
+
+count=110
+
+count=111
+
+Simulation complete via $finish(1) at time 90 NS + 0
+./testbench.sv:52     $finish;
+xcelium> exit
+TOOL:	xrun	25.03-s001: Exiting on Jun 04, 2026 at 02:42:50 EDT  (total: 00:00:01)
+Done
