@@ -1,0 +1,15 @@
+xcelium> source /xcelium25.03/tools/xcelium/files/xmsimrc
+xcelium> run
+
+and gate output using modports
+
+input_p=0	 input_q=1	 output_r=0
+input_p=1	 input_q=1	 output_r=1
+input_p=1	 input_q=1	 output_r=1
+input_p=1	 input_q=0	 output_r=0
+input_p=1	 input_q=1	 output_r=1
+
+xmsim: *W,RNQUIE: Simulation is complete.
+xcelium> exit
+TOOL:	xrun	25.03-s001: Exiting on Jun 04, 2026 at 01:31:02 EDT  (total: 00:00:02)
+Done
