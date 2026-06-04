@@ -1,0 +1,27 @@
+xcelium> source /xcelium25.03/tools/xcelium/files/xmsimrc
+xcelium> run
+time= 6 [driver] rst=0 d=0 q=0
+time= 16 [driver] rst=0 d=1 q=0
+time= 26 [driver] rst=0 d=1 q=1
+time= 36 [driver] rst=0 d=1 q=1
+time= 46 [driver] rst=0 d=1 q=1
+time= 56 [driver] rst=0 d=1 q=1
+time= 66 [driver] rst=0 d=1 q=1
+time= 76 [driver] rst=0 d=0 q=1
+time= 86 [driver] rst=0 d=1 q=0
+time= 96 [driver] rst=0 d=1 q=1
+time= 106 [driver] rst=0 d=0 q=1
+time= 116 [driver] rst=0 d=1 q=0
+time= 126 [driver] rst=0 d=1 q=1
+time= 136 [driver] rst=0 d=0 q=1
+time= 146 [driver] rst=0 d=1 q=0
+time= 156 [driver] rst=0 d=0 q=1
+time= 166 [driver] rst=0 d=1 q=0
+time= 176 [driver] rst=0 d=0 q=1
+time= 186 [driver] rst=0 d=1 q=0
+time= 196 [driver] rst=0 d=1 q=1
+Simulation complete via $finish(1) at time 196 NS + 0
+./testbench.sv:58     $finish;
+xcelium> exit
+TOOL:	xrun	25.03-s001: Exiting on Jun 04, 2026 at 00:55:43 EDT  (total: 00:00:01)
+Done
