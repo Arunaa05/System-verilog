@@ -1,3 +1,5 @@
+//A class is a user-defined data type that includes data (class properties), functions and tasks that operate on data
+
 class add;
   int a, b;
   function int ADD(); // functions or task are called as class methods
