@@ -1,3 +1,5 @@
+//An object handle is nothing but a pointer for an object.
+
 class Packet;
 	int count;
 endclass
